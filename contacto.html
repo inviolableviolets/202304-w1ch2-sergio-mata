@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>humhemhome | Contacto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div id="nav-logo"><a href="index.html"><img src="img/logo-ref.svg" onmouseover="this.src='img/logocolor.png'" onmouseout="this.src='img/logo-ref.svg'"></a></div>
+      <div class="menu-container">
+        <div id="navbar-toggle">
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="sobremi.html" class="navbar-link">Sobre mí</a>
+          </li>          
+          <li class="navbar-item">
+            <a href="galeria.html" class="navbar-link">Galería</a>
+          </li>
+          <li class="navbar-item">
+            <a href="otrosproyectos.html" class="navbar-link">Otros proyectos</a>
+          </li>
+          <li class="navbar-item">
+            <a href="faq.html" class="navbar-link">FAQ</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contacto.html" id="navbar-active" class="navbar-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="form-container">
+    <form action="https://formsubmit.co/sergiomataherrero@gmail.com" method="post" class="form-grid">
+      <div class="form-content">
+        <div class="input-container">
+          <input type="text" name="name" placeholder="Nombre*" required>
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" placeholder="Email*" required>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input-container">
+          <input type="tel" name="phone" placeholder="Telefono*" required>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="input-container">
+          <input type="text" name="city" placeholder="C. Postal" >
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+      </div>
+      <div class="img-flex">
+        <img src="img/sello.svg" alt="">
+      </div>
+      <textarea name="message" id="" cols="30" rows="10" class="form-message"></textarea>
+      <button class="btn-primary form-btn">Contactar</button>
+    </form>
+  </main>
+  <script src="scripts/nav.js"></script>
+</body>
+</html>

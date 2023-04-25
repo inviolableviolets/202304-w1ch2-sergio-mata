@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>humhemhome | Otros proyectos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div id="nav-logo"><a href="index.html"><img src="img/logo-ref.svg" onmouseover="this.src='img/logocolor.png'" onmouseout="this.src='img/logo-ref.svg'"></a></div>
+      <div class="menu-container">
+        <div id="navbar-toggle">
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="sobremi.html" class="navbar-link">Sobre mí</a>
+          </li>          
+          <li class="navbar-item">
+            <a href="galeria.html" class="navbar-link">Galería</a>
+          </li>
+          <li class="navbar-item">
+            <a href="otrosproyectos.html" id="navbar-active" class="navbar-link">Otros proyectos</a>
+          </li>
+          <li class="navbar-item">
+            <a href="faq.html" class="navbar-link">FAQ</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contacto.html" class="navbar-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="otrosproyectos">
+      <!-- <div class="content">
+        <div class="slider-flex-container">
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slides">
+                <img src="img/proyecto1.png" alt="">
+              </div>
+              <div class="slides">
+                <img src="img/proyecto2.png" alt="">
+              </div>
+              <div class="slides">
+                <img src="img/proyecto3.png" alt="">
+              </div>
+              <div class="slides">
+                <img src="img/proyecto4.png" alt="">
+              </div>
+            </div>
+            <i id="slider-left-btn" class="fa-solid fa-angle-left"></i>
+            <i id="slider-right-btn" class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div> -->
+      <section class="slider-center">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slider-progress"></div>
+            <div class="slider-btn-container">
+              <button class="slider-btn slider-btn-left">
+                <!-- <i class="fa-solid fa-chevron-left"></i> -->
+                <span>&lt;</span>
+              </button>
+              <button class="slider-btn slider-btn-right">
+                <!-- <i class="fa-solid fa-chevron-right"></i> -->
+                <span>&gt;</span>
+              </button>
+            </div>
+            <div class="slide">
+              <img src="img/proyecto1.png" alt="">
+              <img src="img/proyecto2.png" alt="">
+              <img src="img/proyecto3.png" alt="">
+              <img src="img/proyecto4.png" alt="">
+            </div>
+            <div class="slider-dots">
+              <button id="1" class="active"></button>
+              <button id="2"></button>
+              <button id="3"></button>
+              <button id="4"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+  <script src="scripts/nav.js"></script>
+  <script src="scripts/slider.js"></script>
+</body>
+</html>
